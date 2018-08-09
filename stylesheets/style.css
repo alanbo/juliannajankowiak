@@ -1,0 +1,411 @@
+/* line 17, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 11, ../sass/style.scss */
+body {
+  padding: 2%;
+  background-color: white;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+/* line 15, ../sass/style.scss */
+body a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 21, ../sass/style.scss */
+em {
+  font-style: italic;
+}
+
+/* line 25, ../sass/style.scss */
+.wrapper {
+  min-width: 200px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+  background-color: white;
+}
+/* line 28, ../sass/style.scss */
+.wrapper #header, .wrapper #footer {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 99.974%;
+  margin-right: 1.042%;
+}
+/* line 33, ../sass/style.scss */
+.wrapper .about_info {
+  margin-top: 20px;
+  position: static;
+  float: left;
+  width: 45%;
+}
+/* line 38, ../sass/style.scss */
+.wrapper .about_info p {
+  text-indent: 20px;
+  text-align: justify;
+}
+@media screen and (max-width: 600px) {
+  /* line 33, ../sass/style.scss */
+  .wrapper .about_info {
+    width: 100%;
+  }
+}
+/* line 49, ../sass/style.scss */
+.wrapper .about_photo {
+  position: static;
+  float: right;
+  width: 49%;
+}
+@media screen and (max-width: 600px) {
+  /* line 49, ../sass/style.scss */
+  .wrapper .about_photo {
+    width: 100%;
+  }
+}
+/* line 57, ../sass/style.scss */
+.wrapper .heading {
+  background-color: white;
+  min-height: 80px;
+}
+/* line 62, ../sass/style.scss */
+.wrapper nav {
+  background-color: rgba(255, 255, 255, 0.6);
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 15.794%;
+  margin-right: 1.042%;
+}
+@media screen and (max-width: 800px) {
+  /* line 62, ../sass/style.scss */
+  .wrapper nav {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 99.974%;
+    margin-right: 1.042%;
+    min-height: 80px;
+    padding-top: 0px;
+  }
+  /* line 70, ../sass/style.scss */
+  .wrapper nav > ul {
+    display: none;
+  }
+}
+/* line 75, ../sass/style.scss */
+.wrapper nav img {
+  width: 80%;
+  margin: 0px;
+  padding: 0px;
+}
+@media screen and (max-width: 800px) {
+  /* line 75, ../sass/style.scss */
+  .wrapper nav img {
+    width: 50%;
+  }
+}
+/* line 84, ../sass/style.scss */
+.wrapper nav h1 {
+  font-size: 1em;
+  margin: 10px;
+}
+@media screen and (max-width: 800px) {
+  /* line 84, ../sass/style.scss */
+  .wrapper nav h1 {
+    font-size: 2em;
+  }
+}
+/* line 95, ../sass/style.scss */
+.wrapper nav > ul {
+  text-transform: uppercase;
+}
+/* line 99, ../sass/style.scss */
+.wrapper nav ul ul {
+  text-transform: lowercase;
+}
+/* line 102, ../sass/style.scss */
+.wrapper nav ul {
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+/* line 110, ../sass/style.scss */
+.wrapper nav li {
+  margin-top: 5px;
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+@media screen and (max-width: 800px) {
+  /* line 110, ../sass/style.scss */
+  .wrapper nav li {
+    font-size: 2em;
+  }
+}
+/* line 117, ../sass/style.scss */
+.wrapper nav li a:hover, .wrapper nav li a.active {
+  font-weight: bold;
+}
+/* line 121, ../sass/style.scss */
+.wrapper section {
+  position: static;
+  float: left;
+  height: 100%;
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 83.138%;
+  margin-right: 0;
+}
+@media screen and (max-width: 1000px) {
+  /* line 121, ../sass/style.scss */
+  .wrapper section {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 900px) {
+  /* line 121, ../sass/style.scss */
+  .wrapper section {
+    padding-top: 60px;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* line 121, ../sass/style.scss */
+  .wrapper section {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 99.974%;
+    margin-right: 1.042%;
+    padding-top: 0px;
+  }
+}
+/* line 137, ../sass/style.scss */
+.wrapper section img {
+  float: left;
+  width: 80%;
+  outline: none;
+  padding: 0px;
+  cursor: pointer;
+  padding-bottom: 3px;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  /* line 137, ../sass/style.scss */
+  .wrapper section img {
+    width: 100%;
+  }
+}
+/* line 151, ../sass/style.scss */
+.wrapper section .images {
+  border: red solid 2px;
+  width: 70%;
+  background-color: red;
+  clear: none;
+  margin: 0px;
+}
+/* line 160, ../sass/style.scss */
+.wrapper .next {
+  height: 100%;
+  position: static;
+  top: 0px;
+  right: 0px;
+  float: left;
+  font-weight: bold;
+  height: 100%;
+  width: 5%;
+  cursor: pointer;
+}
+/* line 171, ../sass/style.scss */
+.wrapper .next:hover {
+  background-color: white;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFCCCCCC', endColorstr='#FF000000');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccccc), color-stop(80%, #ffffff));
+  background-image: -webkit-linear-gradient(top, #cccccc 0%, #ffffff 80%);
+  background-image: -moz-linear-gradient(top, #cccccc 0%, #ffffff 80%);
+  background-image: -o-linear-gradient(top, #cccccc 0%, #ffffff 80%);
+  background-image: linear-gradient(top, #cccccc 0%, #ffffff 80%);
+}
+/* line 177, ../sass/style.scss */
+.wrapper .next img {
+  width: 100%;
+  display: block;
+  position: relative;
+  margin-top: 250px;
+}
+@media screen and (max-width: 1200px) {
+  /* line 177, ../sass/style.scss */
+  .wrapper .next img {
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  /* line 177, ../sass/style.scss */
+  .wrapper .next img {
+    margin-top: 180px;
+  }
+}
+@media screen and (max-width: 900px) {
+  /* line 177, ../sass/style.scss */
+  .wrapper .next img {
+    margin-top: 160px;
+  }
+}
+/* line 196, ../sass/style.scss */
+.wrapper .previous {
+  height: 100%;
+  float: left;
+  font-weight: bold;
+  height: 100%;
+  width: 5%;
+  cursor: pointer;
+}
+/* line 203, ../sass/style.scss */
+.wrapper .previous:hover {
+  background-color: white;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFCCCCCC', endColorstr='#FF000000');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccccc), color-stop(80%, #ffffff));
+  background-image: -webkit-linear-gradient(top, #cccccc 0%, #ffffff 80%);
+  background-image: -moz-linear-gradient(top, #cccccc 0%, #ffffff 80%);
+  background-image: -o-linear-gradient(top, #cccccc 0%, #ffffff 80%);
+  background-image: linear-gradient(top, #cccccc 0%, #ffffff 80%);
+}
+/* line 209, ../sass/style.scss */
+.wrapper .previous img {
+  width: 100%;
+  display: block;
+  position: relative;
+  margin-top: 250px;
+}
+@media screen and (max-width: 1200px) {
+  /* line 209, ../sass/style.scss */
+  .wrapper .previous img {
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  /* line 209, ../sass/style.scss */
+  .wrapper .previous img {
+    margin-top: 180px;
+  }
+}
+@media screen and (max-width: 900px) {
+  /* line 209, ../sass/style.scss */
+  .wrapper .previous img {
+    margin-top: 160px;
+  }
+}
+
+/* line 229, ../sass/style.scss */
+strong, h1, h2, h3 {
+  font-weight: bold;
+}
+
+/* line 233, ../sass/style.scss */
+.menu {
+  height: 80px;
+  width: 80px;
+  position: static;
+  float: right;
+  top: 0px;
+  right: 0px;
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../images/menu.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+/* line 249, ../sass/style.scss */
+.controls {
+  float: right;
+}
+
+/* line 253, ../sass/style.scss */
+.all_button {
+  background-image: url(../images/all_button.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+  cursor: pointer;
+  right: 20px;
+  bottom: 20px;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+/* line 267, ../sass/style.scss */
+.numbers {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}

@@ -1,0 +1,4 @@
+
+3. centering the photo for certain window configurations
+4. positioning of arrows
+
